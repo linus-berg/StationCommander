@@ -1,0 +1,15 @@
+{
+  "plans": {
+    "service_a": {
+      "artifact": "test.zip",
+      "directory": "",
+      "policy": "FOO-BAR"
+    }
+  },
+  "policies": {
+    "FOO-BAR": {
+      "method": "folder",
+      "output": "/bar/"
+    }
+  }
+}
